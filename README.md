@@ -2,7 +2,7 @@
 
 This project demonstrates a YouTube web scraper built with Python, utilizing the YouTube Data API and Pandas library. The scraper allows you to fetch data from YouTube based on a specific search query and store it in a CSV file for further analysis.
 
-## Prerequisites
+## Pre-requisites
 
 - Python 3.x
 - Google Cloud Console project with YouTube Data API enabled
