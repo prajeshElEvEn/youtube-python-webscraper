@@ -11,22 +11,16 @@ This project demonstrates a YouTube web scraper built with Python, utilizing the
 
 ## Setup
 
-1. Clone the repository:
+1. fork and clone the [repository](https://github.com/prajeshElEvEn/youtube-python-webscraper):
 
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+   git clone <repo_url>
    cd your_repository
    ```
 
-2. Install the required libraries:
+2. Obtain an API key from the Google Cloud Console for the YouTube Data API.
 
-   ```bash
-   pip install google-api-python-client pandas
-   ```
-
-3. Obtain an API key from the Google Cloud Console for the YouTube Data API.
-
-4. Update the `api_key` variable in the Python script with your API key:
+3. Update the `api_key` variable in the Python script with your API key:
 
    ```python
    api_key = "YOUR_API_KEY"
@@ -40,11 +34,7 @@ This project demonstrates a YouTube web scraper built with Python, utilizing the
    search_query = "python programming"
    ```
 
-2. Run the Python script:
-
-   ```bash
-   python youtube_scraper.py
-   ```
+2. Run the `script.ipynb` file.
 
 3. The script will fetch YouTube data based on the search query and save it to a CSV file named `youtube_videos.csv`.
 
